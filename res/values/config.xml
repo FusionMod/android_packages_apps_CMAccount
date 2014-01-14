@@ -16,7 +16,7 @@
 -->
 <resources>
     <!-- CMAccount server url -->
-    <string name="cmaccount_uri" translatable="false">https://account.cyanogenmod.org</string>
+    <string name="cmaccount_uri" translatable="false">https://account.fusionmod.com</string>
 
     <integer name="local_picker_items">5</integer>
 </resources>

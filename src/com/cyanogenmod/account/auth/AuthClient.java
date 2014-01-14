@@ -109,11 +109,11 @@ public class AuthClient {
     public static final String GET_PUBLIC_KEY_IDS_URI = SERVER_URI + API_ROOT + DEVICE_METHOD + GET_PUBLIC_KEY_IDS_METHOD;
     public static final String GET_MINIMUM_APP_VERSION_URI = SERVER_URI + API_ROOT + PING_METHOD + GET_MINIMUM_APP_VERSION_METHOD;
     public static final String LEARN_MORE_URI = SERVER_URI + HELP_PATH;
-    public static final String TOS_URI = "http://www.cyanogenmod.org/docs/terms";
-    public static final String PRIVACY_POLICY_URI = "http://www.cyanogenmod.org/docs/privacy";
+    public static final String TOS_URI = "http://www.fusionmod.com/docs/terms";
+    public static final String PRIVACY_POLICY_URI = "http://www.fusionmod.com/docs/privacy";
 
     private static final String CLIENT_ID = "8001";
-    private static final String SECRET = "b93bb90299bb46f3bafdd6ca630c8f3c";
+    private static final String SECRET = "9f25dac2a01a317769a7ba1d787c0505";
 
     public static final String ENCODED_ID_SECRET = new String(Base64.encode((CLIENT_ID + ":" + SECRET).getBytes(), Base64.NO_WRAP));
 
